@@ -1,23 +1,23 @@
-import { orderSort, pokemonType } from '../src/data.js';
+import { orderSort, pokemonTypes } from '../src/data.js';
 
 
-describe('check the order of the property', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
+describe('Check the order of the property', () => {
+  it('returns an objet ordered by letters', () => {
+    expect(orderSort()).toBe('function');
   });
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+  it('returns an object ordered by numbers', () => {
+    expect(orderSort()).toBe('example');
   });
 });
 
 
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
+describe('Check the filter for types', () => {
+  it('returns Poison Pokemons', () => {
+    expect(pokemonTypes()).toBe('function');
   });
 
   it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+    expect(pokemonTypes()).toBe('OMG');
   });
 });
