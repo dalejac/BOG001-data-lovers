@@ -78,59 +78,6 @@ footer {
 
   .home, .pokedex, .versus{
       width: 30px;
-  } 
-
-  .nav-links {
-      display: none;
-      text-align: left;
-      flex-direction: column;
-  }
-
-  li {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: flex-end;
-      flex-direction: column;
-      list-style: none;
-  }
-
-  a {
-      text-decoration: none;
-      color: black;
-  }
-
-  #Pokemon {
-      width: 20vh;
-  }
-
-  .searchContainer {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-  }
-
-  .search {
-      width: 45%;
-      display: flex;
-      border: none;
-      background: #F32E13
-  }
-
-  .loupe {
-      width: 55%;
-  }
-
-  main .window-1 {
-      display: flex;
-      margin-left: 25%;
-      flex-direction: column;     
-      justify-content: center;    
-      width: 50%;              
-      height: calc(100vh - 11vh - 7vh);
-    }
-
-    .home, .pokedex, .versus{
-        width: 30px;
     } 
 
     .nav-links {
@@ -251,12 +198,6 @@ footer {
         text-align: center;
         justify-content: center;
     }
-      .card {
-    background: #C6E2F2;
-    width: 15%;
-    text-align: center;
-    border-radius: 10px;
-  }
 }
 
 @media screen and (min-width: 451px) and (max-width: 770px) {
@@ -403,33 +344,27 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    .card {
-    background: #C6E2F2;
-    width: 15%;
-    text-align: center;
-    border-radius: 10px;
-  }
 }
 
 @media screen and (min-width: 771px) {
 
-  header {
-      height: 16vh;
-  }
+    header {
+        height: 16vh;
+    }
 
-  .container {
-      width: 300px;
-      align-self: center;
-  }
+    .container {
+        width: 300px;
+        align-self: center;
+    }
 
-  nav {
-      display: flex;
-      align-items: center;
-  }
+    nav {
+        display: flex;
+        align-items: center;
+    }
 
-  .home, .pokedex, .versus{
-      width: 40px;
-  } 
+    .home, .pokedex, .versus{
+        width: 40px;
+    }
 
     .nav-links {
         display: flex;
@@ -576,11 +511,4 @@ footer {
         justify-content: center;
         text-align: center;
     }
-  
-    .card {
-    background: #C6E2F2;
-    width: 15%;
-    text-align: center;
-    border-radius: 10px;
-  }
 }

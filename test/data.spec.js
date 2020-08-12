@@ -2,8 +2,9 @@ import { orderSort, pokemonTypes } from '../src/data.js';
 
 
 describe('Check the order of the property', () => {
+  const dataSet = data.pokemon 
   it('returns an objet ordered by letters', () => {
-    expect(orderSort()).toBe('function');
+    expect(orderSort({a},{z},{m},{c})).toBe({a},{c},{m},{c});
   });
 
   it('returns an object ordered by numbers', () => {
